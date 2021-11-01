@@ -1,0 +1,12 @@
+{
+    "posts": [
+      { "id": 1, "title": "Dahboard", "author": "Anasayfa" },
+      { "id": 2, "title": "Checker", "author": "Checker" },
+      { "id": 3, "title": "Sign Out", "author": "Çkıkış Yap" }
+    
+    ],
+    "comments": [
+      { "id": 1, "body": "comments here", "postId": 1 },
+      { "id": 2, "body": "some other comments here", "postId": 4 }
+    ]
+  }

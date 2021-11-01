@@ -1,0 +1,104 @@
+.App {
+    font-family: sans-serif;
+    text-align: center;
+    float: right;
+    width: 70%;
+    
+  }
+  svg {
+    font-family: Sans-Serif, Arial;
+  }
+  .line {
+    stroke-width: 2;
+    fill: none;
+  }
+  
+  .axis path {
+    stroke: black;
+  }
+
+  .container{
+      width: 100%;
+      max-width: 1200px;
+  }
+
+  .content{
+      width: 100%;
+     
+  }
+  .sidebar{
+     
+      width: 100%;
+
+    
+  }
+  
+  .text {
+    font-size: 12px;
+  }
+  
+  .title-text {
+    font-size: 12px;
+  }
+
+
+
+  .dashboard{
+   
+    width: 100%;
+    max-width: 1200px;
+    flex-direction: column;
+    
+  }
+
+  .dashboard-content {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    align-items: center;
+}
+
+.dashboard-content>div {
+
+    margin-top: 4%;
+    width: 80%;
+}
+.dashboard-content>div>div {
+    margin-top: 4%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.grid_item{
+
+    
+   
+}
+.flex-wrap{
+  flex-direction: row;
+}
+
+
+@media only screen and (max-width:768px) {
+    
+    .grid_item{
+    background-color: aqua;
+
+        
+       
+       
+     
+      
+    }
+    
+}
+   
+    @media only screen and (max-width:864px) {
+    
+        
+
+     
+    
+
+}

@@ -1,0 +1,20 @@
+﻿version: '3.4'
+
+services:
+  rmira.web.admin.web:
+    build:
+      context: .
+      dockerfile: Dockerfile
+    container_name: rmira-web-admin-web
+    image: ${DOCKER_REGISTRY-}rmirateknoloji/microservices:RmiraWebAdmin
+    restart: always
+    ports:
+        - "3005:40000"
+    networks:
+        - rmira
+
+networks:
+  rmira:
+    driver: bridge
+    external: true # varsa network u kendin yaratmalısın
+  
