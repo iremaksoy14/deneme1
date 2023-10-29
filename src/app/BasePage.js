@@ -56,16 +56,16 @@ export default function BasePage() {
           <Redirect exact from="/" to="/checker" />
         }
         <ContentRoute path="/dashboard" component={DashboardPage} />
-        <ContentRoute path="/builder" component={BuilderPage} />
+        {/* <ContentRoute path="/builder" component={BuilderPage} />
         <ContentRoute path="/my-page" component={MyPage} />
         <Route path="/google-material" component={GoogleMaterialPage} />
         <Route path="/react-bootstrap" component={ReactBootstrapPage} />
         <Route path="/e-commerce" component={ECommercePage} />
-        <Route path="/test" component={TestPage} />
+        <Route path="/test" component={TestPage} /> */}
 
 
 
-        <Route path="/user-profile" component={UserProfilepage} />
+        {/* <Route path="/user-profile" component={UserProfilepage} />
         <Route path="/tables" component={Tables} />
         <Route path="/base-tables" component={BaseTables} />
         <Route path="/mixeswidgets" component={MixedWidget} />
@@ -83,7 +83,7 @@ export default function BasePage() {
       
        
        
-        <Redirect to="error/error-v1" />
+        <Redirect to="error/error-v1" /> */}
       </Switch>
     </Suspense>
   );

@@ -13,8 +13,6 @@ constructor(props){
   
 }
 
-
-
 setColor=(item)=>{
   if(item=="Kiradaki Araçlar")
   {
@@ -65,9 +63,6 @@ fetch('http://192.168.1.101:30010/api/Home/DashboardCounter', requestOptions)
     console.log("data",propertyNames);
    
     this.setState({data:propertyNames})
- 
-    
- 
   })
  
   .catch((err)=>{
